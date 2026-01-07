@@ -77,5 +77,37 @@
       ]
     }
   },
-  "sensors": []
+  "sensors": [],
+  "behaviors": {
+    "mkp": {
+      "display_name": "Mouse Key Press",
+      "keys": {
+        "LCLK": {
+          "code": "LCLK",
+          "name": "Left Click",
+          "description": "Mouse left button click"
+        },
+        "RCLK": {
+          "code": "RCLK",
+          "name": "Right Click",
+          "description": "Mouse right button click"
+        },
+        "MCLK": {
+          "code": "MCLK",
+          "name": "Middle Click",
+          "description": "Mouse middle button click"
+        },
+        "MB4": {
+          "code": "MB4",
+          "name": "Mouse Button 4",
+          "description": "Mouse button 4 click"
+        },
+        "MB5": {
+          "code": "MB5",
+          "name": "Mouse Button 5",
+          "description": "Mouse button 5 click"
+        }
+      }
+    }
+  }
 }
