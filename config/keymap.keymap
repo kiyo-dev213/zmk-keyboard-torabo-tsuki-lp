@@ -39,11 +39,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans                &trans         &trans            &trans                                           &trans                   &trans               &trans        &trans         &trans       &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)      &kp LS(N7)     &kp LS(PERCENT)   &kp LS(NUMBER_6)                                 &kp F2                   &kp F4               &kp F7        &kp F8         &kp F12      &trans
-&trans  &kp LS(SLASH)     &kp LS(LEFT_BRACKET)  &kp LS(N8)     &kp LS(N9)        &kp LS(RIGHT_BRACKET)  &trans     &trans         &kp PLUS                 &kp MINUS            &kp ASTERISK  &kp SEMICOLON  &kp LS(SQT)  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LS(COMMA)  &kp LS(PERIOD)    &kp SLASH              &kp TAB    &kp BACKSPACE  &kp LS(INTERNATIONAL_3)  &kp INTERNATIONAL_3  &kp SLASH     &kp SEMICOLON  &kp INT_RO   &trans
-&trans  &kp LS(MINUS)     &kp SLASH             &kp SEMICOLON  &kp LS(NUMBER_3)  &mkp MB1               &kp SPACE  &kp ENTER      &kp TAB                  &kp DEL              &trans        &trans         &trans       &trans
+&trans  &trans            &trans                 &trans         &trans            &trans                                       &trans                   &trans               &trans       &trans         &trans             &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)       &kp LS(N7)     &kp LS(PERCENT)   &kp LS(NUMBER_6)                             &kp F2                   &kp F4               &kp F7       &kp F8         &kp F12            &trans
+&trans  &kp LS(SLASH)     &kp LS(RIGHT_BRACKET)  &kp LS(N8)     &kp LS(N9)        &kp LS(BACKSLASH)  &trans     &trans         &kp LS(EQUAL)            &kp MINUS            &kp LS(SQT)  &kp SEMICOLON  &kp LS(SEMICOLON)  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp LS(COMMA)  &kp LS(PERIOD)    &kp BACKSLASH      &kp TAB    &kp BACKSPACE  &kp LS(INTERNATIONAL_3)  &kp INTERNATIONAL_3  &kp SLASH    &kp SEMICOLON  &kp INT_RO         &trans
+&trans  &kp LS(MINUS)     &kp SLASH              &kp SEMICOLON  &kp LS(NUMBER_3)  &mkp MB1           &kp SPACE  &kp ENTER      &kp TAB                  &kp DEL              &trans       &trans         &trans             &trans
             >;
         };
 
@@ -54,6 +54,16 @@
 &trans  &kp LC(V)   &kp C_BRI_DN       &kp C_BRI_UP  &kp UP      &kp LG(LS(S))  &trans     &trans         &kp LEFT          &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp TAB       &trans
 &trans  &kp LC(Z)   &kp LC(X)          &kp LEFT      &kp DOWN    &kp RIGHT      &kp TAB    &kp BACKSPACE  &kp SINGLE_QUOTE  &kp DQT       &kp GRAVE     &kp TILDE     &kp PIPE      &trans
 &trans  &trans      &trans             &trans        &trans      &mkp MB1       &kp SPACE  &kp ENTER      &mkp MB2          &trans        &trans        &trans        &trans        &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
