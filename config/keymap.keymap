@@ -19,11 +19,11 @@
 
         layer_0 {
             bindings = <
-&none  &none      &none     &none     &none      &none                                &none     &none     &none      &none             &none             &none
-&none  &kp Q      &kp W     &kp E     &kp R      &kp T                                &kp Y     &kp U     &kp I      &kp O             &kp P             &none
-&none  &kp A      &kp S     &kp D     &kp F      &kp G      &mkp LCLK  &mkp RCLK      &kp H     &kp J     &kp K      &kp L             &kp MINUS         &none
-&none  &kp Z      &kp X     &kp C     &kp V      &kp B      &kp TAB    &kp BACKSPACE  &kp N     &kp M     &kp COMMA  &kp DOT           &to 1             &none
-&none  &kp LCTRL  &kp LGUI  &kp LALT  &kp LSHFT  &mkp LCLK  &kp SPACE  &kp ENTER      &mkp MB2  &kp BSPC  &kp RALT   &lt 2 LANGUAGE_2  &lt 3 LANGUAGE_1  &none
+&none  &none      &none     &none     &none      &none                            &none          &none     &none      &none             &none             &none
+&none  &kp Q      &kp W     &kp E     &kp R      &kp T                            &kp Y          &kp U     &kp I      &kp O             &kp P             &none
+&none  &kp A      &kp S     &kp D     &kp F      &kp G      &mkp LCLK  &mkp RCLK  &kp H          &kp J     &kp K      &kp L             &kp MINUS         &none
+&none  &kp Z      &kp X     &kp C     &kp V      &kp B      &kp TAB    &mkp MB2   &kp N          &kp M     &kp COMMA  &kp DOT           &to 1             &none
+&none  &kp LCTRL  &kp LGUI  &kp LALT  &kp LSHFT  &mkp LCLK  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp BSPC  &kp RALT   &lt 2 LANGUAGE_2  &lt 3 LANGUAGE_1  &none
             >;
         };
 
