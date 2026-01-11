@@ -42,7 +42,7 @@
             bindings = <
 &trans  &trans            &trans                 &trans         &trans            &trans                                       &trans                   &trans               &trans       &trans         &trans          &trans
 &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)       &kp LS(N7)     &kp LS(PERCENT)   &kp LS(NUMBER_6)                             &kp F2                   &kp F4               &kp F7       &kp F8         &kp F12         &trans
-&trans  &kp LS(SLASH)     &kp LS(RIGHT_BRACKET)  &kp LS(N8)     &kp LS(N9)        &kp LS(BACKSLASH)  &trans     &trans         &kp LS(SEMICOLON)        &kp MINUS            &kp LS(SQT)  &kp SEMICOLON  &kp COLON       &trans
+&trans  &kp LS(SLASH)     &kp LS(RIGHT_BRACKET)  &kp LS(N8)     &kp LS(N9)        &kp LS(BACKSLASH)  &trans     &trans         &kp LS(SEMICOLON)        &kp MINUS            &kp LS(SQT)  &kp SEMICOLON  &kp SQT         &trans
 &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp LS(COMMA)  &kp LS(PERIOD)    &kp BACKSLASH      &kp TAB    &kp BACKSPACE  &kp LS(INTERNATIONAL_3)  &kp INTERNATIONAL_3  &kp SLASH    &kp SEMICOLON  &kp LS(INT_RO)  &trans
 &trans  &kp LS(MINUS)     &kp SLASH              &kp SEMICOLON  &kp LS(NUMBER_3)  &mkp MB1           &kp SPACE  &kp ENTER      &kp TAB                  &kp DEL              &trans       &trans         &trans          &trans
             >;
@@ -54,7 +54,7 @@
 &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT                               &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4    &trans
 &trans  &kp LC(V)   &kp C_BRI_DN       &kp C_BRI_UP  &kp UP      &kp LG(LS(S))  &trans     &trans         &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4   &trans
 &trans  &kp LC(Z)   &kp LC(X)          &kp LEFT      &kp DOWN    &kp RIGHT      &kp TAB    &kp BACKSPACE  &bt BT_CLR     &out OUT_USB   &out OUT_BLE   &out OUT_TOG   &bt BT_CLR_ALL  &trans
-&trans  &trans      &trans             &trans        &trans      &mkp MB1       &kp SPACE  &kp ENTER      &mkp MB2       &trans         &trans         &trans         &trans          &trans
+&trans  &trans      &trans             &trans        &mkp MB2    &mkp MB1       &kp SPACE  &kp ENTER      &mkp MB2       &trans         &trans         &trans         &trans          &trans
             >;
         };
     };
